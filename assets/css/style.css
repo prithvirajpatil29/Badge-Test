@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: ; */
+}
+
+.button {
+    margin: 50px;
+}
+
+.button input {
+    height: 200px;
+    width: 400px;
+}
+.button input {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.button input:hover {
+    color: white;
+    background-color: blue;
+    transition: 1s;
+}
+.button {
+    specificity:100%;
+}
+
+/* Pricing table */
+
+.pricingtable{
+    background-color: lightgray;
+}
+table,tr,td,th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+table tr td{
+    padding: 20px;
+    background-color: bisque;
+}
+table tr th {
+    padding: 10px;
+    background-color: yellow;
+}
+
+table:hover{
+    cursor: pointer;
+}
+table tr td:hover {
+    background-color: rgb(197, 242, 153);
+}
+table tr th:hover{
+    background-color: rgb(245, 110, 110);
+}
