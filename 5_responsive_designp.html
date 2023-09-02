@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESPONSIVE DESIGN</title>
+  <style>
+    .responsive{
+      margin: 10px;
+      border: 1px solid black;
+      padding: 20px;
+    }
+    @media(max-width:768px)
+    {
+      .responsive>img{
+          width: 250px;
+      }
+    }
+    @media(min-width:768px) and (max-width:1200px) {
+      .responsive>img{
+        width: 550px;
+    }
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <h1>RESPONSIVE DESIGN</h1>
+  </center>
+  <hr>
+  <div class="responsive">
+    <img src="assets/images/img3.jpg" alt="">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui voluptates, quo aliquam inventore, quos cupiditate dolore praesentium similique suscipit dolor quod, ea ab? Perferendis libero ab iusto eaque similique tempora!</p>
+  </div>
+</body>
+</html>

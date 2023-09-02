@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .box_model{
+            padding: 10px;
+            border: 1px solid black;
+            margin: 50px;
+            color: white;
+            background-clip: content-box;
+            
+        }
+        .box_model1{
+            background-clip:content-box;
+            background-color: red;
+        }
+        .box_model2{
+            background-clip:padding-box;
+            background-color: black;
+        }
+        .box_model3{
+            border: 5px solid blue;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CSS BOX MODEL</h1>
+        <hr>
+    </center>
+    <p class="box_model box_model1">This is contetnt Box</p>
+    <p class="box_model box_model2">This is padding box</p>
+    <p class="box_model box_model3">This is Border box</p>
+</body>
+</html>
